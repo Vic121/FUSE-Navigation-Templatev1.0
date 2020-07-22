@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1300" height="499" version="1.1" style=""><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/>
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>wave_background</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="116.70788%" cy="110.133192%" fx="116.70788%" fy="110.133192%" r="147.799618%" gradientTransform="translate(1.167079,1.101332),scale(0.357923,1.000000),rotate(-160.534454),translate(-1.167079,-1.101332)" id="radialGradient-1">
+            <stop stop-color="#0069FF" offset="0%"/>
+            <stop stop-color="#0269FD" offset="2.91250472%"/>
+            <stop stop-color="#0369FC" offset="4.5053357%"/>
+            <stop stop-color="#0468FB" offset="6.00516035%"/>
+            <stop stop-color="#1165EF" offset="25.4821693%"/>
+            <stop stop-color="#4457C0" offset="100%"/>
+        </radialGradient>
+    <radialGradient cx="116.70788%" cy="110.133192%" fx="116.70788%" fy="110.133192%" r="147.799618%" gradientTransform="translate(1.167079,1.101332),scale(0.357923,1.000000),rotate(-160.534454),translate(-1.167079,-1.101332)" id="svg_1" x1="1" x2="1">
+            <stop stop-color="#0069FF" offset="0%"/>
+            <stop stop-color="#0269FD" offset="2.91250472%"/>
+            <stop stop-color="#0369FC" offset="4.5053357%"/>
+            <stop stop-color="#0468FB" offset="6.00516035%"/>
+            <stop stop-color="#1165EF" offset="25.4821693%"/>
+            <stop stop-color="#4457C0" offset="100%"/>
+        </radialGradient></defs>
+    
+<g class="currentLayer" style=""><title>Layer 1</title><g id="Ressource" stroke="none" stroke-width="1" fill="#000000" fill-rule="evenodd" class="selected" stroke-linejoin="round" fill-opacity="1">
+        <g id="wave_background" stroke-width="1" stroke-linejoin="round" fill="#000000" fill-opacity="1">
+            <g id="Group-4" stroke-width="1" stroke-linejoin="round" fill="#000000" fill-opacity="1">
+                <path d="M0,1.89326617e-29 L1300,-2.84217094e-14 C1299.84369,99.0658466 1299.84369,259.045733 1300,479.93966 C939.379367,522.288692 978.893507,439.694844 650,450.952014 C321.106493,462.209185 306.589562,511.200484 0,450.952014 C1,327.508342 1,177.191004 0,1.89326617e-29 Z" id="Wave" fill="#000000" opacity="0.15" stroke-width="1" stroke-linejoin="round" fill-opacity="1"/>
+                <path d="M1301.999963781875,0 L377.29947742187505,0 L1.000732421875,0 C1.000732421875,223.960943 1.000732421875,366.849893 1.000732421875,428.66685 C81.39553242187503,416.744841 155.18705242187502,399.334739 344.71895842187496,416.744841 C534.250869421875,434.154944 601.176424421875,503.789515 876.678743421875,437.77475 C1060.346956421875,393.764907 1202.120696421875,397.003272 1301.999963781875,447.489845 L1301.999963781875,0 z" id="Wave" fill="#000000" stroke-width="1" stroke-linejoin="round" fill-opacity="1"/>
+            </g>
+        </g>
+    </g></g></svg>

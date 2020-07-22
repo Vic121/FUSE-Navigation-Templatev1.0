@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1659px" height="1221px" viewBox="0 0 1659 1221" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Background </title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="102.511965%" y1="57.5003417%" x2="-1.99402218%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#478DFF" offset="0%"></stop>
+            <stop stop-color="#00157E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="66.1335805%" y1="26.3756859%" x2="79.7485108%" y2="48.269829%" id="linearGradient-2">
+            <stop stop-color="#E7EAF6" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.314821105" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="87.7154375%" y1="50%" x2="56.2356641%" y2="68.6052036%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.314821105" offset="100%"></stop>
+        </linearGradient>
+        <path d="M1748.42953,434.724211 C1767.60009,382.929403 1742.82605,321.470001 1693.09997,297.453115 L1632.19324,268.036155 L609.333103,1126.31772 L1514.38714,839.695395 C1567.03427,823.022532 1625.25638,767.512117 1644.42457,715.723711 L1748.42953,434.724211 Z" id="path-4"></path>
+        <filter x="-18.7%" y="-48.7%" width="162.2%" height="183.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="142" dy="-62" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="95" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Desing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-4-Homepage-">
+            <g id="Header" transform="translate(-281.000000, -659.000000)">
+                <g id="Background-">
+                    <path d="M1928.48776,808.984377 C1951.96438,758.990601 1936.39172,690.048376 1898.57954,659 L1898.57954,659 L281,659 L281,1879.06013 L1554.45184,1437.0949 C1606.63098,1418.98557 1667.96387,1363.77334 1691.43873,1313.78331 L1928.48776,808.984377 Z" id="background" fill="url(#linearGradient-1)"></path>
+                    <path d="M1035.60392,1408.94417 C1054.77331,1357.15252 1029.41506,1296.94147 978.969601,1274.46123 L717.729748,1158.04371 L105.735671,1355.51028 L329.673703,1652.68609 L457.367952,1822.1589 L868.342174,1650.22079 C919.286497,1628.90735 976.124464,1569.64513 995.294284,1517.85232 L1035.60392,1408.94417 Z" id="Shapoe" fill="url(#linearGradient-2)" opacity="0.0774253731" transform="translate(573.868993, 1490.101307) scale(-1, 1) rotate(-143.000000) translate(-573.868993, -1490.101307) "></path>
+                    <g id="shape" opacity="0.0309584888" transform="translate(1182.123713, 697.176935) scale(-1, 1) rotate(40.000000) translate(-1182.123713, -697.176935) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                        <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

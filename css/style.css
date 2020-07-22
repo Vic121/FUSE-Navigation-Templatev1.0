@@ -1,0 +1,266 @@
+
+
+
+/* ICON STYLES - ICON FROM: http://fontastic.me/
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+[class^="icon-"]:after,
+[class*=" icon-"]:after {
+ font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-up-open-big { display: inline-block; }
+
+.icon-up-open-big:after {
+  content: "a";
+  font-size: 2.5em;
+  display: block;
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+  color: black;
+  transition: color .3s;
+}
+
+.icon-up-open-big:hover:after {
+	color: white;	
+}
+
+.scroll-icon {
+	position: absolute;
+ 	left: 50%;
+  bottom: 30px;
+  padding: 0 10px;
+  	-webkit-transform: translateX(-50%);
+  	        transform: translateX(-50%);
+}
+
+
+
+/* Responsive Topnav CLASSES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* HELPER CLASSES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.l-left {
+	float: left;
+}
+
+.l-right {
+	float: right;
+}
+
+.end {
+	margin-top: 30px;
+	font-size: 3em;
+	font-weight: bold;
+	opacity: 0;
+	-webkit-transform: translateY(300px);
+	        transform: translateY(300px);
+	transition: opacity, -webkit-transform 1s;
+	transition: opacity, transform 1s;
+	transition: opacity, transform 1s, -webkit-transform 1s;
+	transition-delay: 1s;
+}
+
+
+
+/* RESET-GENERAL STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+* {
+	margin: 0;
+	padding: 0;
+ font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+}
+
+
+
+body {
+	color: black;
+	letter-spacing: .18em;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul, li {
+	list-style-type: none;
+}
+
+
+
+  
+
+
+/* SECTION STYLES - fullPage.js 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* 
+.section1 { 
+  left: 0;
+  right: 0;
+  z-index: 0;
+	text-align: center;
+ }
+ .section1:before { 
+    content: "";
+    position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  display: block;
+background-image: url('http://127.0.0.1/svg/blue-background-wave-1.svg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+ height: 100%;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(2px);
+ } */
+ 
+/* h2 {
+
+    text-transform: lowercase;
+    font-size: 2em;
+    margin-bottom: 20px;
+    background: rgba(230, 230, 230, 0.42);
+    padding: 5px;
+    border-radius: 13px;
+    border: 2px solid #21e6ff;
+    color: black;
+	}
+ */
+.section1 {
+background-image: url('../img/back/back1.svg');
+background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+ height: 100%;
+}
+
+.section2 {
+background-image: url('../img/back/back2.svg');
+background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+ height: 100%;
+}
+.section3 {
+background-image: url('../img/back/back3.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+}
+.section4 {
+background-image: url('../img/back/back4.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+}
+.section5 {
+    background-image: url(../img/back/back5.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+}
+.section6 {
+    background-image: url(../img/back/back6.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+}
+
+/* SLIDENAV STYLES - fullPage.js 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#fp-nav ul li a span, 
+.fp-slidesNav ul li a span {
+	background: white;
+	width: 8px;
+	height: 8px;
+	margin: -4px 0 0 -4px;
+}
+
+#fp-nav ul li a.active span, 
+.fp-slidesNav ul li a.active span, 
+#fp-nav ul li:hover a.active span, 
+.fp-slidesNav ul li:hover a.active span {
+	width: 16px;
+	height: 16px;
+	margin: -8px 0 0 -8px;
+	background: transparent;
+	box-sizing: border-box;
+	border: 2px solid #ffffff;
+}
+#fp-nav {
+background: blueviolet;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+
+/* MQ STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 767px) {
+	nav ul {
+		flex-direction: column;
+	}
+
+	nav li {
+		margin-top: 1px;
+	}
+  
+  nav li a {
+    font-size: 1.5em;
+  }
+  
+  .scroll-icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 50%;
+  }
+  
+  .open-menu ~ nav {
+		padding: 20px 0;
+	}
+
+	nav li a {
+		padding: 3px;
+	}
+}
